@@ -1,12 +1,12 @@
 {
-    "theme_color": "#a69d94",
-    "background_color": "#a69d94",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "./",
     "start_url": "/index.html",
-    "name": "ECart",
-    "short_name": "ECart",
-    "description": "Progressive Web App Experiment ",
+    "name": "MRB",
+    "short_name": "MRB",
+    "description": "Muhammad Rehan Baig Resume",
     "icons": [
         {
             "src": "icon-192x192.png",

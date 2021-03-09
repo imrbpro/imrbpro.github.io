@@ -1,228 +1,415 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home | Cart Site</title>
-	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-	<meta name="theme-color" content="#646464">
+<html class="js-focus-visible" data-js-focus-visible=""><head>
+			
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">			<title>Muhammad Rehan Baig
+ - Resume </title>
+			<meta name="author" content="">
+
  	<link rel="manifest" href="manifest.json" />
 	<link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
- 	<script type="text/javascript" src="Assets/jquery.js.js"></script>
- 	<script type="text/javascript" src="Assets/bootstrap3/js/bootstrap.min.js"></script>
- 	<script type="text/javascript" src="Assets/js/pagination.js"></script>
-	<script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="Assets/bootstrap.css">
+	<link rel="stylesheet" href="Assets/bootstraptheme.css">
+		<link rel="stylesheet" href="Assets/cv.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro:400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400,500,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<style>
+
+body {
+	font-family: "Source Sans Pro", "open sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;;
+}
+
+.text {
+	font-size: px !important;
+}
+.datum {
+	font-size: px !important;
+}
+.vd-headings {
+	font-size: px !important;
+	font-family: "Source Sans Pro", "open sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;;
+}
+.namn {
+    font-size:22px !important;
+    color:hsl(340, 86%, 41%) !important;
+}
+.titel {
+	font-size: px !important;
+}
+.vd-name {
+	font-size: px !important;
+	font-family: "Source Sans Pro", "open sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;;
+}
+</style>
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style>
+<script>
 	if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/pwabuilder-sw.js');
   });
 	}
 	</script>
- 	<link rel="stylesheet" type="text/css" href="Assets/bootstrap3/css/bootstrap.min.css">
- 	<link rel="stylesheet" type="text/css" href="Assets/css/custom.css">
- 	<link rel="stylesheet" type="text/css" href="Assets/fa/css/font-awesome.min.css">
- 	<style type="text/css">
- 		.nav>li>a:focus, .nav>li>a:hover {
-		    text-decoration: none;
-		    background-color: black;
-		}
-		.card-img-top{
-		    width:300px;
-		    height:200px;
-		    margin-left:0px;
-		    margin-right:0px;
-		}
- 	</style>
 </head>
-<body>
-	<center>
-	<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<body class="no-pjs-render">
+	<div class="vd-holder">
+		<div class="vd-social-block">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"><span><i class="fa fa-shopping-cart"></i></span> Item Add To Cart</h4>
-      </div>
-      <div class="modal-body">
-        <div class="itemsets">
-        	<label>Enter Item Quantity &nbsp;</label><input type="text" class="iteminp"><br><br>
-        	<button class="btn btn-danger mbtn"><span><i class="fa fa-check"></i></span> Checkout</button><br><br>
-        	<button class="btn btn-success mbtn"><span><i class="fa fa-shopping-cart"></i></span> Continue Shopping</button>
+			
+		</div>
+		<div class="vd-top-holder">
+															<div class="vd-top-one-image">
+							<div class="hexagon-holder-img">
+								<div class="hexa">
+											<div class="cvm-avatar">
+			<img src="Assets/mrb.jpeg">
+		</div>
+										</div>
+							</div>
+						</div>
+					
+				
+			<div class="vd-top-two">
+				<span class="vd-name">Muhammad Rehan Baig
+</span>
+				<span class="vd-title">Senior Software Engineer</span>
+			</div>
+			<div class="vd-top-three">
+								<span class="vd-top-adress">Farhan Classic Flat # A509 Gulistan e Johar Karachi					, 72590 Karachi				</span>
+												<span class="vd-top-three-info"><strong>+923460379925</strong></span><span class="vd-top-text-divider">|</span>
+                                <span class="vd-top-three-info"><strong>muhammadrehanbaig@gmail.com</strong></span><br>
+                                <span class="vd-top-three-info"><strong>https://www.linkedin.com/in/muhammadrehanbaig</strong></span><span class="vd-top-text-divider">|</span>
+                                <span class="vd-top-three-info"><strong>https://github.com/imrbpro</strong></span>
+
+			</div>
+		</div> <!-- vd-top-holder -->
+
+		<div class="divider"></div>
+		
+		
+
+		<div class="vd-content-holder">
+
+			<div class="vd-content-work">
+    <span class="vd-headings">
+        Work experience    </span>
+
+    
+        
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                2019                                -
+                Present                            </span>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Bahria University karachi</span>
+                        <span class="titel">- Jr Lect Software Engineer</span>
+                        <span class="date-mobile">2019                                -
+                Present                            </span>
+                    </div>
     </div>
 
-  </div>
-</div>
-</center>
-	<nav class="navbar navbar-custom navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="caret"></span>
-			        <span class="caret"></span>
-			        <span class="caret"></span> 
-			      </button>
-			    <a href="index.html" class="navbar-brand"><span><i class="fa fa-shopping-cart"></i></span> Cart Site </a>
-		</div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-				
-			<ul class="nav navbar-nav">
-				<li><a href="items.html"><span><i class="fa fa-bug"></i></span> Items</a></li>
-				<li><a href="promotions.html"><span><i class="fa fa-dollar"></i></span> Promotions</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span><i class="fa fa-shopping-bag"></i></span> Cart(0)</a></li>
-				<li><a href="#"><span><i class="fa fa-user"></i></span>Login</a></li>
-			</ul>
-		</div>
-		</div>
-	</nav><br><br><br>
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#myCarousel" data-slide-to="0"></li>
-				    <li data-target="#myCarousel" data-slide-to="1"></li>
-				    <li data-target="#myCarousel" data-slide-to="2"></li>
-				  </ol>
+    
+    
+        
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                May 2017                &nbsp;            </span>
+        </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Technologia Solutions</span>
+                        <span class="titel">- Senior Software Engineer</span>
+                        <span class="date-mobile">May 2017                            </span>
+                        <span class="text"><div><strong>Point@20</strong>. Technologia product for businesses for inventory management</div><div>Asp.net Core, Webapi Core, Sql Server, Swagger</div><div><br></div><div><strong>SmartGuideApplication</strong>. Technologia product for businesses for inventory</div><div>management</div><div>Android, Asp.net Core, Webapi Core, Sql Server, Swagger</div><div><br></div><div><strong>MyFarmbasket</strong>. online organic grocery shopping web based application</div><div>contains multiple modules for managing and assigning orders to riders and</div><div>inventory management Asp.net, Sql Server</div><div><br></div><div><strong>Rashanwala</strong>. online grocery shopping website hybrid application. Xamarin</div><div>Cross Platform c#</div><div><br></div><div><strong>SecureMate</strong>. native android application developed for making our android</div><div>device secure without the internet. Android java, SQLite, WebApi</div><div><br></div><div><strong>MR KHAN ERP/Pos &amp; Hybrid App</strong>. an Erp point of sale desktop application for</div><div>a shop. Also a hybrid application for their website using ionic3. (Windows Forms,</div><div>Bunifu UI, Sql Server 2014,2016, Ionic 3, Angular 4</div><div>)</div><div><br></div><div><strong>Memon tex</strong>. inventory management and Point of Sale for textile company.</div><div>(Windows Forms, Bunifu UI, Sql Server 2014,2016)</div></span>
+                    </div>
+    </div>
 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner">
-				    <div class="item active">
-				      <img src="Assets/imgs/slides/1.jpg" class="img img-responsive img-srs" >
-				    </div>
+    
+    
+        
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                Sept 2017                                -
+                Feb 2019                            </span>
+        </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Waqartech Pvt Ltd</span>
+                        <span class="titel">- Software Engineer</span>
+                        <span class="date-mobile">Sept 2017                                -
+                Feb 2019                            </span>
+                        <span class="text"><div>As a software engineer in waqartech. I have worked on multiple projects based</div><div>on IOT, Enterprise Management, Mobile applications projects are listed below.</div><div><br></div><div><strong>SUPERMEAL</strong> is an online food ordering service and a marketplace, facilitating</div><div>food lovers to find restaurants and place online orders. Technologies and</div><div>Environment used: (Asp.net c# Webforms, Wcf Webservices, Sql server 2014, Sql</div><div>server 2016)</div><div><br></div><div><strong>SUPERWEB </strong>is a subset of supermeal and dedicated platform for the clients of</div><div>supermeal that provide complete website solutions. Technologies and</div><div>Environment used: (Asp.net c# Webforms, Wcf Webservices, Sql server 2014,</div><div>Sql server 2016)</div><div><br></div><div><strong>SUPERMEAL HYBRID APP </strong>for supermeal platform using ionic 3 native libraries,</div><div>angular 5, local storage and SQLite Technologies and Environment used: (Ionic 3,</div><div>angular 4, node js)</div><div><br></div><div><strong>SuperCenter </strong>is a back office application for handling supermeal and dedicated</div><div>superweb platform contents and functionality. Technologies and Environment</div><div>used: (Asp.net c#, WebApi c#, sql server 2016, webforms)</div><div><br></div><div><strong>Platform Medicals </strong>is an expert team of medical professionals dedicated to</div><div>working closely with our clients to ensure the promotion of physical and</div><div>mental health wellbeing within their organizations Technologies and</div><div>Environment used: (Asp.net c# Mvc core, Entity Framework, MySQL)</div><div><br></div><div><strong>TLM (Tera Liquid Mineral) </strong>is an IOT based TERRA NutriTECH smart monitoring</div><div>technology platform help farmers to manage minerals and controllers using</div><div>web and mobile technologies Technologies and Environment used: (Asp.net c#,</div><div>.Net core 2.0, Entity Framework Core, Angular 5, Sql server 2016)</div><div><br></div><div><strong>CDP (Consumer Data Protection) </strong>is a web portal for organizations to manage</div><div>and fulfill GDPR law in Europe. Technologies and Environment used: (Asp.net</div><div>c# webforms, Entity Framework, Sql Server 2014)</div></span>
+                    </div>
+    </div>
 
-				    <div class="item">
-				      <img src="Assets/imgs/slides/2.jpg" class="img img-responsive img-srs">
-				    </div>
+    
+    
+        
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                Sept 2016                                -
+                Jan 2017                            </span>
+        </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Weskia Solutions</span>
+                        <span class="titel">- Intern Software Engineer</span>
+                        <span class="date-mobile">Sept 2016                                -
+                Jan 2017                            </span>
+                        <span class="text"><div><strong>JADWA SAUDIARABIA REIT</strong> website Content Management system. for Saudi</div><div>Arabian Real Estate Investment Trust. Technologies and Environment used:</div><div>(Asp.net C#, Sql Server 2014,2016)</div><div><br></div><div><strong>POS </strong>point of sale system for a retail shop Technologies and Environment used:</div><div>(C#, Winforms ,Sql Server 2014,2016)</div></span>
+                    </div>
+    </div>
 
-				    <div class="item">
-				      <img src="Assets/imgs/slides/3.jpg" class="img img-responsive img-srs">
-				    </div>
-				  </div>
+    
+    
+</div> <!-- vd-content-work -->
+<div class="vd-content-work">
+    <span class="vd-headings">
+        Education    </span>
 
-				  <!-- Left and right controls -->
-				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
-	<div class="container">
-		<div class="jumbotron">
-			<div class="container">
-				<!-- <h1>Your Cart Site</h1>
-				<hr> -->
-				<br>
-				<h3>Top Sales of Week</h3>
-				<hr>
-				<div class="row">
-					
-					
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-						<div class="row" id="item-cont">
-							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-								<div class="card">
-									<img src="Assets/imgs/items/laptop.png" class="card-img-top">
-									<div class="card-body">
-										<div class="container">
-											
-												<div class="card-text"> Laptops </div>
-												<hr>
-													<p>High Gamming and Mid Range Laptops are available</p>
-													<center>
-													<button class="btn btn-danger " data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-shopping-cart"></i></span> Add to Cart </button>
-													</center>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-								<div class="card">
-									<img src="Assets/imgs/items/usb.jpg" class="card-img-top">
-									<div class="card-body">
-										<div class="container">
-											
-												<div class="card-text"> External Drives and Usb drives </div>
-												<hr>
-													
-													<p>All types of HDD and SDD are available</p>
-													<center>
-													<button class="btn btn-danger " data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-shopping-cart"></i></span> Add to Cart </button>
-													</center>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-								<div class="card">
-									<img src="Assets/imgs/items/tool.jpg" class="card-img-top">
-									<div class="card-body">
-										<div class="container">
-											
-												<div class="card-text"> Tool Packs </div>
-												<hr>
-													
-													<p>Best Quality toolpacks are avaiable</p>
-													<center>
-													<button class="btn btn-danger " data-toggle="modal" data-target="#myModal" ><span><i class="fa fa-shopping-cart"></i></span> Add to Cart </button>
-													</center>
-											
-										</div>
-									</div>
-								</div>
-							</div>
+    
+    
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                2018                                -
+                2020                            </span>
+        </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Bahria University Karachi</span>
+                        <span class="titel">- Masters in Software Engineering</span>
+                        <span class="date-mobile">2018                                -
+                2020                            </span>
+                        <span class="text"><div>Completed Masters in Software Engineering with 3.56 CGPA</div></span>
+                    </div>
+    </div>
 
-						</div>
-					</div>
+        
+    
+    
+    <div class="vd-section-holder">
+        <div class="vd-section-date-holder">
+            <span class="datum">
+                2014                                -
+                2017                            </span>
+        </div>
+        <div class="vd-section-content-holder">
+            <span class="namn">Mehran University Of Engineering &amp; Technology</span>
+                        <span class="titel">- Bachelors in Software Engineering</span>
+                        <span class="date-mobile">2014                                -
+                2017                            </span>
+                        <span class="text"><div>3.33 CGPA</div></span>
+                    </div>
+    </div>
 
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<br><strong> Find Us </strong><hr>
-					<span><i class="fa fa-map-marker"></i></span> Located World Wide
-				</div>
+        
+    
+</div> <!-- vd-content-work -->
+    
 
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<br><strong> Contact Us </strong><hr>
-					<span><i class="fa fa-mobile"></i></span> 0900-78601
-					
-				</div>
+    <div class="vd-content-work">
+        <span class="vd-headings">
+            Projects        </span>
 
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<br><strong> Terms and Conditions </strong><hr>
-					<p>The Terms and condition Apply please read it carefully<a href="#" style="color: orange"> &nbsp; &nbsp; Read More</a></p>
-				</div>
+        
+                
+        <div class="vd-section-holder">
+            <div class="vd-section-date-holder">
+                <span class="datum">
+                                        (2016)                                    </span>
+            </div>
+            <div class="vd-section-content-holder">
+                <span class="namn">RemoteLock</span>
+                                <span class="date-mobile">
+                                        (2016)                                    </span>
+                                <span class="text"><div>Android application with locking and getting location.</div><div>Android</div></span>
+                            </div>
+        </div>
 
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<br><strong> Payment Methods </strong><hr>
-					<span><i class="fa fa-paypal"></i></span> PayPal <br>
-					<span><i class="fa fa-credit-card"></i></span> Credit Card <br>
-					<span><i class="fa fa-paypal"></i></span> PayPal
-					
-				</div>
+        
+        
+                
+        <div class="vd-section-holder">
+            <div class="vd-section-date-holder">
+                <span class="datum">
+                                        2017                                    </span>
+            </div>
+            <div class="vd-section-content-holder">
+                <span class="namn">Thesis Box</span>
+                                <span class="date-mobile">
+                                        2017                                    </span>
+                                <span class="text"><div>Final year project - Repository for choosing final year projects and search in between the completed and related projects</div></span>
+                            </div>
+        </div>
 
-			</div>
-			<br>
-					<address>All Rights Reserved &copy; <strong>MyCart</strong> </address>
-		
-		</div>
-	</footer>
-</body>
-</html>
+        
+        
+                
+        <div class="vd-section-holder">
+            <div class="vd-section-date-holder">
+                <span class="datum">
+                                        (2015)                                    </span>
+            </div>
+            <div class="vd-section-content-holder">
+                <span class="namn">Al Khidmat WebApp</span>
+                                <span class="date-mobile">
+                                        (2015)                                    </span>
+                                <span class="text"><div>NGO’s Website, Asp.net, Javascript, jQuery,</div><div>SqlServer, Html, Css</div></span>
+                            </div>
+        </div>
+
+        
+        
+    </div> <!-- vd-content-work -->
+
+
+<!-- DIVIDER LAST -->
+<div class="divider-last"></div>
+
+<!-- LANGUAGES -->
+<div class="vd-section-holder">
+	        <div class="vd-half">
+    			
+
+    			<div class="vd-content-work">
+    				<span class="vd-headings">
+    					Language    				</span>
+
+    				
+                    
+    				<div class="vd-section-holder">
+    					<div class="vd-section-date-holder-half">
+    						<span class="datum">
+    							English    						</span>
+    					</div>
+    					    						<div class="vd-section-content-holder-half">
+    							<span class="text">Conversational</span>
+    						</div>
+    					    				</div>
+
+                    
+    				
+                    
+    				<div class="vd-section-holder">
+    					<div class="vd-section-date-holder-half">
+    						<span class="datum">
+    							Urdu    						</span>
+    					</div>
+    					    						<div class="vd-section-content-holder-half">
+    							<span class="text">Native</span>
+    						</div>
+    					    				</div>
+
+                    
+    				
+                    
+    				<div class="vd-section-holder">
+    					<div class="vd-section-date-holder-half">
+    						<span class="datum">
+    							German    						</span>
+    					</div>
+    					    						<div class="vd-section-content-holder-half">
+    							<span class="text">Basic</span>
+    						</div>
+    					    				</div>
+
+                    
+    				
+    			</div> <!-- vd-content-work -->
+    			    </div>
+        <!-- Skills -->
+
+    <div class="vd-half">
+    <!-- SKILLS -->
+    			
+
+    			<div class="vd-content-work">
+    				<span class="vd-headings">
+    					Skills    				</span>
+
+    				
+                                   <br>     
+    				<div class="vd-section-holder">
+    					<div class="vd-section-date-holder-half" style="width: 100%;">
+    						<span class="datum">
+    							<strong><i>Proficient in</i></strong> : C#, Asp.net, Asp.net Core, Winforms, Webforms, JavaScript, Java SE, SQL, MySQL, Android, Git, Swagger, Progressive Web Apps. Html, Css, Bootstrap,Fontawsome    						</span>
+    					</div>
+    					    						
+    					    				</div>
+
+                    
+    				
+    			</div> <!-- vd-content-work -->
+    			    </div>
+
+
+
+</div> <!-- vd-section-holder -->
+
+
+
+			
+				</div> <!-- vd-content-holder -->
+
+	</div> <!-- vd-holder -->
+</div> <!-- vd-wrapper -->
+
+
+</body></html>
