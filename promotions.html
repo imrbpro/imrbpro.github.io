@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Cart Site</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta name="theme-color" content="#646464">
+ 	<link rel="manifest" href="Assets/manifest.json" />
+ 	<script type="text/javascript" src="Assets/jquery.js.js"></script>
+ 	<script type="text/javascript" src="Assets/bootstrap3/js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="Assets/js/pagination.js"></script>
+ 	<script type="text/javascript" src="swWorker.js"></script>
+ 	<script type="text/javascript" src="check.js"></script>
+ 	<script type="text/javascript">
+ 	      if('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                       .register('/swWorker.js')
+                       .then(function() { console.log("Registered"); });
+            }
+ 	</script>
+ 	<link rel="stylesheet" type="text/css" href="Assets/bootstrap3/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="Assets/css/custom.css">
+ 	<link rel="stylesheet" type="text/css" href="Assets/fa/css/font-awesome.min.css">
+ 	<style type="text/css">
+ 		.nav>li>a:focus, .nav>li>a:hover {
+		    text-decoration: none;
+		    background-color: black;
+		}
+		.card-img-top{
+		    width:300px;
+		    height:200px;
+		    margin-left:0px;
+		    margin-right:0px;
+		}
+ 	</style>
+</head>
+<body>
+	<center>
+		
+	<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><span><i class="fa fa-shopping-cart"></i></span> Item Add To Cart</h4>
+      </div>
+      <div class="modal-body">
+        <div class="itemsets">
+        	<label>Enter Item Quantity &nbsp;</label><input type="text" class="iteminp"><br><br>
+        	<button class="btn btn-danger mbtn"><span><i class="fa fa-check"></i></span> Checkout</button><br><br>
+        	<button class="btn btn-success mbtn"><span><i class="fa fa-shopping-cart"></i></span> Continue Shopping</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</center>
+	<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="caret"></span>
+			        <span class="caret"></span>
+			        <span class="caret"></span> 
+			      </button>
+			    <a href="index.html" class="navbar-brand"><span><i class="fa fa-shopping-cart"></i></span> Cart Site </a>
+		</div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+				
+			<ul class="nav navbar-nav">
+				<li><a href="items.html"><span><i class="fa fa-bug"></i></span> Items</a></li>
+				<li><a href="promotions.html"><span><i class="fa fa-dollar"></i></span> Promotions</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span><i class="fa fa-shopping-bag"></i></span> Cart(0)</a></li>
+				<li><a href="#"><span><i class="fa fa-user"></i></span>Login</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+				</div>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<!-- <h1>Your Cart Site</h1>
+				<hr> -->
+				<br>
+				
+				<div class="row">
+					
+					
+					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+						<div class="row" id="item-cont">
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_electronics.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Electronics </div>
+												<hr>
+													<p>25% off on All Electronics Items.</p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_tools.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Tools </div>
+												<hr>
+													
+													<p>20% off on All Tool Items. </p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_toys.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Toys for kids </div>
+												<hr>
+													
+													<p>50% off on all toys Items.</p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_groceries.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Groceries </div>
+												<hr>
+												
+													<p>15% off on all groceries Items. </p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_fruits.png" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Fruits </div>
+												<hr>
+													
+													<p>60% off on All Fruit Items.</p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+								<div class="card">
+									<img src="Assets/imgs/items/promo_vegetables.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="container">
+											
+												<div class="card-text"> Vegetables </div>
+												<hr>
+													
+													<p>75% off on All Vegetable Items.</p>
+													<center>
+													<button class="btn btn-danger " ><span><i class="fa fa-shopping-cart"></i></span> Show Promotions </button>
+													</center>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<br><strong> Find Us </strong><hr>
+					<span><i class="fa fa-map-marker"></i></span> Located World Wide
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<br><strong> Contact Us </strong><hr>
+					<span><i class="fa fa-mobile"></i></span> 0900-78601
+					
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<br><strong> Terms and Conditions </strong><hr>
+					<p>The Terms and condition Apply please read it carefully<a href="#" style="color: orange"> &nbsp; &nbsp; Read More</a></p>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<br><strong> Payment Methods </strong><hr>
+					<span><i class="fa fa-paypal"></i></span> PayPal <br>
+					<span><i class="fa fa-credit-card"></i></span> Credit Card <br>
+					<span><i class="fa fa-paypal"></i></span> PayPal
+					
+				</div>
+
+			</div>
+			<br>
+					<address>All Rights Reserved &copy; <strong>MyCart</strong> </address>
+		
+		</div>
+	</footer>
+	
+	
+	
+ 	<script>
+ 	    $(document).ready(function(){
+ 	       //This is the service worker with the Cache-first network
+
+          	$( "div:last" ).remove();
+
+ 	    });
+ 	</script>
+ 	
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBO5Jg9gPwkN_JRc2tTMqrfFr4_3tPGPzc",
+    authDomain: "ecart-13edf.firebaseapp.com",
+    databaseURL: "https://ecart-13edf.firebaseio.com",
+    projectId: "ecart-13edf",
+    storageBucket: "ecart-13edf.appspot.com",
+    messagingSenderId: "381756222557"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>

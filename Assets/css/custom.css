@@ -1,0 +1,98 @@
+*{
+	letter-spacing:2px;  
+ 	font-variant-caps: all-petite-caps;
+	padding:3px;
+}
+body{
+	margin:0;
+	padding:0;
+	}
+.modal-dialog{
+    margin-top:10%;
+}
+.jumbotron{
+	background-color: transparent !important; 
+}
+.navbar{
+	font-family: consolas;
+	font-size: 16px;
+}
+.navbar-custom{
+	background-color: #646464;
+	border-radius:0px;
+}
+.nav li:hover{
+	background-color: black !important;
+	color:orange !important;
+}
+.navbar-brand{
+	color:orange !important;
+}
+.navbar-nav li a{
+	color:white !important;
+}
+.img-srs{
+	width: 100% !important;
+	height: 100% !important;
+}
+.item-list{
+	text-decoration: none;
+	list-style: none;
+}
+.item-list li{
+
+	padding: 10px;
+}
+.item-list a{
+	font-family: tahoma;
+	font-size: 16px;
+	text-decoration: none;
+}
+.card{
+	width: 100%;
+	height: 400px;
+	padding: 10px;
+}
+.card-text{
+	font-weight: bold;
+	text-align: center;
+}
+.card img{
+	width: 300px;
+	height: 150px;
+}
+.row p{
+	font-family: tahoma;
+	font-size: 12px;
+	text-align: center;
+
+}
+footer{
+	width: 100%;
+	background-color: #646464;
+	color:white;
+}
+address{
+	text-align: center;
+	color:white;
+}
+.navbar-toggle{
+	color:orange;
+}
+.promotions a{
+	color:red !important;
+}
+.iteminp{
+	min-width:30px;
+	max-width: 35px; 
+	
+}
+.modal-content{
+	min-width:300px;
+	max-width: 350px; 
+	margin-top:3%;
+	border-radius: 0px !important;
+}
+.mbtn{
+	width: 100%;
+}
