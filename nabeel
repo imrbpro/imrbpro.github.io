@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Muhammad Nabeel Baig - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #fff;
+      color: #000;
+      line-height: 1.6;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    .header {
+      background-color: #102a73;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #102a73;
+      border-bottom: 2px solid #102a73;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .section p, .section li {
+      font-size: 14px;
+    }
+
+    .section {
+      margin-top: 20px;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        box-shadow: none;
+      }
+      .container {
+        box-shadow: none;
+        padding: 20px;
+      }
+      .header {
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Dr. Muhammad Nabeel Baig</h1>
+      <p>Karachi, 75290 Sindh | 0332-3414755 | mnabeelbaig44@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>Dedicated and compassionate Medical Officer with hands-on experience in emergency and internal medicine. Proven ability to manage critically ill patients, perform emergency resuscitations, and conduct minor surgical procedures under pressure. Trained in ACLS and BLS, with a strong foundation in clinical rotations across surgery, pediatrics, orthopedics, and medicine. Known for empathy, teamwork, and effective communication in high-stress environments.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Emergency Resuscitation & Stabilization</li>
+        <li>Airway Management & EKG Interpretation</li>
+        <li>Mass Casualty & Trauma Management</li>
+        <li>Advanced Suturing Techniques</li>
+        <li>Toxicology Knowledge</li>
+        <li>Internal Medicine & Chronic Disease Care</li>
+        <li>Patient Counseling & Communication</li>
+        <li>Certified ACLS & BLS Provider (2024)</li>
+        <li>Investigation leadership</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work History</h2>
+      <p><strong>Foundation Year House Officer</strong><br>Baqai Medical University Teaching Hospitals | May 2024 - May 2025</p>
+      <ul>
+        <li>General Surgery: 27/05/24 - 26/08/24</li>
+        <li>Orthopedics: 27/08/24 - 26/11/24</li>
+        <li>Pediatrics: 27/11/24 - 26/02/25</li>
+        <li>General Medicine: 27/02/25 - 26/05/25</li>
+        <li>Rotated through core specialties, performed clinical procedures, assisted in surgeries, and managed patient care under supervision.</li>
+        <li>Performance Rating: "Good"</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>M.B.B.S in Bachelor of Medicine & Bachelor of Surgery - May 2024<br>Baqai Medical University, Karachi<br>Passed Final Examination: March 2024</p>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>PMDC Permanent License</li>
+        <li>ACLS Certification - 2024 (SaveaLife / Postgraduate Institute for Medicine - Awarded 8.00 AMA PRA Category 1 Credits)</li>
+        <li>BLS Certification - 2024 (SaveaLife / Postgraduate Institute for Medicine - Awarded 4.00 AMA PRA Category 1 Credits)</li>
+        <li>OET Certified</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>English - Fluent</li>
+        <li>Urdu - Native</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Affiliations</h2>
+      <p>PMDC</p>
+    </div>
+  </div>
+</body>
+</html>
